@@ -30,11 +30,11 @@
               username="root" password="" driverClassName="com.mysql.cj.jdbc.Driver"
               url="jdbc:mysql://127.0.0.1:8081/javatest"/>
 
-    <Resource name="jdbc/student_manager"
+    <Resource name="jdbc/coffee_manager"
               auth="Container" type="javax.sql.DataSource"
               maxActive="20" maxIdle="5" maxWait="10000"
               username="root" password="" driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://localhost:8081/student_manager"/>
+              url="jdbc:mysql://localhost:8081/coffee_manager"/>
 
 </Context>
 <!--        jdbc:mysql://localhost:3306/student_manager?useSSL=false&serverTimezone=UTC-->
